@@ -1,0 +1,24 @@
+IMPORTANT: CV FILE REQUIRED
+============================
+
+Please add your CV file to this directory with the name:
+
+    Asia_CV.pdf
+
+The "Download CV" button in the portfolio website links to this file.
+
+If you want to use a different filename, you'll need to update the link in index.html:
+
+Find this line:
+    <a href="Asia_CV.pdf" class="btn btn-secondary" download>
+
+And change "Asia_CV.pdf" to your filename.
+
+Make sure your CV:
+- Is in PDF format
+- Is professionally formatted
+- Includes your contact information
+- Highlights your skills and achievements
+- Is up-to-date
+
+Once you add the CV file, test the download button locally before deploying to GitHub Pages.
