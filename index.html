@@ -3,256 +3,215 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Asia Parveen - Aspiring Data Analyst | BS Mathematics Student">
     <title>Asia Parveen | Data Analyst Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
+
     <!-- Navigation -->
-    <nav class="navbar" id="navbar">
-        <div class="container nav-container">
-            <a href="#" class="logo">AP</a>
-            <ul class="nav-menu" id="navMenu">
-                <li><a href="#home" class="nav-link">Home</a></li>
-                <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#skills" class="nav-link">Skills</a></li>
-                <li><a href="#achievements" class="nav-link">Achievements</a></li>
-                <li><a href="#education" class="nav-link">Education</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Asia.<span>Parveen</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Achievements</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-            <button class="hamburger" id="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <section class="hero" id="home">
-        <div class="hero-background">
-            <div class="grid-overlay"></div>
-            <div class="data-particles"></div>
-        </div>
-        <div class="container hero-container">
-            <div class="hero-content">
-                <div class="hero-label">Portfolio 2026</div>
-                <h1 class="hero-title">
-                    <span class="name-line">Asia Parveen</span>
-                </h1>
-                <p class="hero-subtitle">Aspiring Data Analyst | BS Mathematics Student</p>
-                <p class="hero-description">
-                    Detail-oriented BS Mathematics student with strong analytical and problem-solving skills. 
-                    Passionate about data analysis, visualization, and research-based problem solving. 
-                    Recognized for academic excellence and creativity. Seeking opportunities to apply 
-                    technical and analytical expertise in a professional environment.
-                </p>
-                <div class="hero-buttons">
-                    <a href="#achievements" class="btn btn-primary">View My Work</a>
-                    <a href="Asia_CV.pdf" class="btn btn-secondary" download>
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                            <polyline points="7 10 12 15 17 10"></polyline>
-                            <line x1="12" y1="15" x2="12" y2="3"></line>
-                        </svg>
-                        Download CV
-                    </a>
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h3>Welcome, I am</h3>
+                <h1>Asia Parveen</h1>
+                <h2 class="typing-effect">Aspiring Data Analyst | BS Mathematics</h2>
+                <p>A highly motivated and detail-oriented BS Mathematics student with a strong foundation in analytical thinking and problem-solving. Passionate about data analysis, visualization, and research-driven insights.</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="Asia_CV.pdf" download class="btn btn-outline">Download CV</a>
+                    <a href="https://www.linkedin.com/in/asia-parveen-37a502371" target="_blank" class="btn btn-linkedin"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
                 </div>
             </div>
-            <div class="hero-visual">
-                <div class="stat-card stat-1">
-                    <div class="stat-number">3.57</div>
-                    <div class="stat-label">CGPA</div>
-                </div>
-                <div class="stat-card stat-2">
-                    <div class="stat-number">942</div>
-                    <div class="stat-label">Matric Score</div>
-                </div>
-                <div class="stat-card stat-3">
-                    <div class="stat-number">4+</div>
-                    <div class="stat-label">Certifications</div>
-                </div>
+            <div class="hero-image">
+                <!-- REPLACE 'https://placehold.co/400x400' WITH YOUR IMAGE PATH e.g., 'images/profile.jpg' -->
+                <img src="https://placehold.co/400x400/1e293b/white?text=Asia+Parveen" alt="Asia Parveen">
+                <div class="image-overlay"></div>
             </div>
         </div>
     </section>
 
     <!-- About Section -->
-    <section class="about" id="about">
+    <section id="about" class="section-padding">
         <div class="container">
             <div class="section-header">
-                <span class="section-number">01</span>
-                <h2 class="section-title">About Me</h2>
+                <h2>About Me</h2>
+                <div class="line"></div>
             </div>
-            <div class="about-content">
-                <div class="about-text">
-                    <p class="about-paragraph">
-                        Skilled in Excel, Python, and computational modeling. Strong interest in applying 
-                        technical and analytical skills to real-world data problems. Motivated, creative, 
-                        and committed to continuous learning and professional growth.
-                    </p>
-                    <div class="about-highlights">
-                        <div class="highlight-item">
-                            <div class="highlight-icon">📊</div>
-                            <div class="highlight-text">Data Analysis & Visualization</div>
-                        </div>
-                        <div class="highlight-item">
-                            <div class="highlight-icon">🧮</div>
-                            <div class="highlight-text">Mathematical Modeling</div>
-                        </div>
-                        <div class="highlight-item">
-                            <div class="highlight-icon">💡</div>
-                            <div class="highlight-text">Research & Problem Solving</div>
-                        </div>
-                    </div>
-                </div>
+            <div class="about-box">
+                <p>Skilled in Excel, Python, and computational modeling. Strong interest in transforming raw data into meaningful insights. Adept at problem-solving, critical thinking, and applying mathematical concepts to real-world scenarios. Recognized for academic excellence, leadership, and creativity. Eager to contribute analytical expertise in a dynamic professional environment.</p>
             </div>
         </div>
     </section>
 
     <!-- Skills Section -->
-    <section class="skills" id="skills">
+    <section id="skills" class="section-padding bg-light">
         <div class="container">
             <div class="section-header">
-                <span class="section-number">02</span>
-                <h2 class="section-title">Skills & Experience</h2>
+                <h2>Skills & Experience</h2>
+                <div class="line"></div>
             </div>
-            <div class="skills-content">
-                <div class="experience-card">
-                    <div class="experience-header">
-                        <h3>Bank Internship</h3>
-                        <span class="company-name">MCB</span>
+            <div class="skills-grid">
+                <!-- Technical Skills -->
+                <div class="skill-card">
+                    <h3>Technical Skills</h3>
+                    <ul>
+                        <li><i class="fab fa-python"></i> Python</li>
+                        <li><i class="fas fa-file-excel"></i> MS Excel</li>
+                        <li><i class="fas fa-file-word"></i> MS Word</li>
+                        <li><i class="fas fa-file-powerpoint"></i> MS PowerPoint</li>
+                    </ul>
+                </div>
+                <!-- Soft Skills -->
+                <div class="skill-card">
+                    <h3>Soft Skills</h3>
+                    <ul>
+                        <li><i class="fas fa-comments"></i> Communication</li>
+                        <li><i class="fas fa-puzzle-piece"></i> Problem Solving</li>
+                        <li><i class="fas fa-users"></i> Teamwork</li>
+                        <li><i class="fas fa-clock"></i> Time Management</li>
+                    </ul>
+                </div>
+                <!-- Experience -->
+                <div class="skill-card">
+                    <h3>Experience</h3>
+                    <div class="experience-item">
+                        <h4>Bank Internship</h4>
+                        <span>MCB</span>
+                        <p>Gained foundational experience in financial data handling and client interaction.</p>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects / Achievements Section -->
+    <section id="projects" class="section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>Achievements & Certifications</h2>
+                <div class="line"></div>
+            </div>
+            <div class="projects-grid">
                 
-                <div class="skills-grid">
-                    <div class="skill-category">
-                        <h3 class="category-title">Technical Skills</h3>
-                        <div class="skill-items">
-                            <div class="skill-item">
-                                <div class="skill-name">MS Word</div>
-                                <div class="skill-bar">
-                                    <div class="skill-fill" style="width: 90%"></div>
-                                </div>
-                            </div>
-                            <div class="skill-item">
-                                <div class="skill-name">MS PowerPoint</div>
-                                <div class="skill-bar">
-                                    <div class="skill-fill" style="width: 85%"></div>
-                                </div>
-                            </div>
-                            <div class="skill-item">
-                                <div class="skill-name">Python</div>
-                                <div class="skill-bar">
-                                    <div class="skill-fill" style="width: 75%"></div>
-                                </div>
-                            </div>
-                            <div class="skill-item">
-                                <div class="skill-name">Excel</div>
-                                <div class="skill-bar">
-                                    <div class="skill-fill" style="width: 88%"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="skill-category">
-                        <h3 class="category-title">Soft Skills</h3>
-                        <div class="soft-skills">
-                            <div class="soft-skill-tag">Communication & Presentation</div>
-                            <div class="soft-skill-tag">Problem Solving</div>
-                            <div class="soft-skill-tag">Teamwork & Collaboration</div>
-                            <div class="soft-skill-tag">Time Management</div>
-                        </div>
+                <!-- Item 1 -->
+                <div class="project-card">
+                    <img src="https://placehold.co/600x400/0f172a/white?text=Graphic+Design" alt="Graphic Design">
+                    <div class="card-content">
+                        <h3>Graphic Designing</h3>
+                        <p>Certified at Z-S Learning Institute</p>
                     </div>
                 </div>
+
+                <!-- Item 2 -->
+                <div class="project-card">
+                    <img src="https://placehold.co/600x400/0f172a/white?text=AI+Image+Gen" alt="AI Image Gen">
+                    <div class="card-content">
+                        <h3>AI Image Generation</h3>
+                        <p>Certified at Z-S Learning Institute</p>
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="project-card">
+                    <img src="https://placehold.co/600x400/0f172a/white?text=Video+Editing" alt="Video Editing">
+                    <div class="card-content">
+                        <h3>Video Editing</h3>
+                        <p>Certified at Z-S Learning Institute</p>
+                    </div>
+                </div>
+
+                <!-- Item 4 (Shield) -->
+                <div class="project-card">
+                    <img src="https://placehold.co/600x400/0f172a/white?text=VP+Caspam" alt="Vice President">
+                    <div class="card-content">
+                        <h3>Vice President</h3>
+                        <p>Caspam Welfare Council</p>
+                    </div>
+                </div>
+
+                <!-- Item 5 -->
+                <div class="project-card">
+                    <img src="https://placehold.co/600x400/0f172a/white?text=Silver+Medal" alt="Silver Medal">
+                    <div class="card-content">
+                        <h3>Silver Medal</h3>
+                        <p>Matriculation Excellence</p>
+                    </div>
+                </div>
+
+                <!-- Item 6 -->
+                <div class="project-card highlight">
+                    <img src="https://placehold.co/600x400/3b82f6/white?text=1st+Position" alt="1st Position">
+                    <div class="card-content">
+                        <h3>1st Position</h3>
+                        <p>Semester 7, BS Mathematics (BZU)</p>
+                        <span class="badge">Top Performer</span>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
 
-    <!-- Achievements Section -->
-    <section class="achievements" id="achievements">
+    <!-- Education Timeline -->
+    <section id="education" class="section-padding bg-light">
         <div class="container">
             <div class="section-header">
-                <span class="section-number">03</span>
-                <h2 class="section-title">Achievements & Certifications</h2>
-            </div>
-            <div class="achievements-grid">
-                <div class="achievement-card cert">
-                    <div class="achievement-icon">🎨</div>
-                    <h3>Graphic Designing in Canva</h3>
-                    <p>Z-S Learning Institute</p>
-                    <span class="achievement-badge">Certification</span>
-                </div>
-                <div class="achievement-card cert">
-                    <div class="achievement-icon">🤖</div>
-                    <h3>AI Image Generation</h3>
-                    <p>Z-S Learning Institute</p>
-                    <span class="achievement-badge">Certification</span>
-                </div>
-                <div class="achievement-card cert">
-                    <div class="achievement-icon">🎬</div>
-                    <h3>Video Editing</h3>
-                    <p>Z-S Learning Institute</p>
-                    <span class="achievement-badge">Certification</span>
-                </div>
-                <div class="achievement-card award">
-                    <div class="achievement-icon">🏆</div>
-                    <h3>Vice President</h3>
-                    <p>Caspam Welfare Council</p>
-                    <span class="achievement-badge">Leadership</span>
-                </div>
-                <div class="achievement-card award">
-                    <div class="achievement-icon">🥈</div>
-                    <h3>Silver Medal</h3>
-                    <p>Matriculation</p>
-                    <span class="achievement-badge">Academic Excellence</span>
-                </div>
-                <div class="achievement-card award">
-                    <div class="achievement-icon">🥉</div>
-                    <h3>3rd Position - Semester 5</h3>
-                    <p>Bahauddin Zakariya University</p>
-                    <span class="achievement-badge">Academic Excellence</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Education Section -->
-    <section class="education" id="education">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-number">04</span>
-                <h2 class="section-title">Education</h2>
+                <h2>Education Timeline</h2>
+                <div class="line"></div>
             </div>
             <div class="timeline">
+                <!-- Item 1 -->
                 <div class="timeline-item">
-                    <div class="timeline-marker"></div>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2022 - 2026</div>
                     <div class="timeline-content">
-                        <span class="timeline-date">2022 – 2026</span>
-                        <h3>BS Mathematics (Ongoing)</h3>
-                        <p class="institution">Bahauddin Zakariya University</p>
-                        <p class="detail">CGPA: 3.56/4.00</p>
+                        <h3>BS Mathematics</h3>
+                        <h4>BZU (Bahauddin Zakariya University)</h4>
+                        <p>CGPA: 3.57/4.00</p>
                     </div>
                 </div>
+                <!-- Item 2 -->
                 <div class="timeline-item">
-                    <div class="timeline-marker"></div>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2020 - 2022</div>
                     <div class="timeline-content">
-                        <span class="timeline-date">2020 – 2022</span>
-                        <h3>Intermediate (Pre-Engineering)</h3>
-                        <p class="institution">BISE Multan</p>
-                        <p class="detail">Score: 868/1100</p>
+                        <h3>Intermediate</h3>
+                        <h4>BISE Multan</h4>
+                        <p>Score: 868/1100</p>
                     </div>
                 </div>
+                <!-- Item 3 -->
                 <div class="timeline-item">
-                    <div class="timeline-marker"></div>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2018 - 2020</div>
                     <div class="timeline-content">
-                        <span class="timeline-date">2018 – 2020</span>
-                        <h3>Matriculation (Science)</h3>
-                        <p class="institution">BISE Multan</p>
-                        <p class="detail">Score: 942/1100</p>
+                        <h3>Matriculation</h3>
+                        <h4>BISE Multan</h4>
+                        <p>Score: 942/1100</p>
                     </div>
                 </div>
             </div>
@@ -260,69 +219,31 @@
     </section>
 
     <!-- Contact Section -->
-    <section class="contact" id="contact">
+    <section id="contact" class="section-padding">
         <div class="container">
             <div class="section-header">
-                <span class="section-number">05</span>
-                <h2 class="section-title">Get In Touch</h2>
+                <h2>Get In Touch</h2>
+                <div class="line"></div>
             </div>
-            <div class="contact-content">
-                <p class="contact-intro">
-                    I'm currently seeking opportunities in data analysis and would love to connect. 
-                    Feel free to reach out through any of the channels below.
-                </p>
-                <div class="contact-methods">
-                    <a href="mailto:parveenasia622@gmail.com" class="contact-card">
-                        <div class="contact-icon">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                                <polyline points="22,6 12,13 2,6"></polyline>
-                            </svg>
-                        </div>
-                        <div class="contact-info">
-                            <div class="contact-label">Email</div>
-                            <div class="contact-value">parveenasia622@gmail.com</div>
-                        </div>
-                    </a>
-                    <a href="tel:03196195323" class="contact-card">
-                        <div class="contact-icon">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
-                            </svg>
-                        </div>
-                        <div class="contact-info">
-                            <div class="contact-label">Phone</div>
-                            <div class="contact-value">03196195323</div>
-                        </div>
-                    </a>
-                    <a href="https://www.linkedin.com/in/asia-parveen-37a502371?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android-app" target="_blank" rel="noopener noreferrer" class="contact-card">
-                        <div class="contact-icon">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
-                                <rect x="2" y="9" width="4" height="12"></rect>
-                                <circle cx="4" cy="4" r="2"></circle>
-                            </svg>
-                        </div>
-                        <div class="contact-info">
-                            <div class="contact-label">LinkedIn</div>
-                            <div class="contact-value">Asia Parveen</div>
-                        </div>
-                    </a>
+            <div class="contact-wrapper">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>parveenasia622@gmail.com</p>
+                    <a href="mailto:parveenasia622@gmail.com">Send Mail</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <h3>Phone</h3>
+                    <p>03196195323</p>
+                    <a href="tel:03196195323">Call Now</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-linkedin"></i>
+                    <h3>LinkedIn</h3>
+                    <p>asia-parveen-37a502371</p>
+                    <a href="https://www.linkedin.com/in/asia-parveen-37a502371" target="_blank">Connect</a>
                 </div>
             </div>
         </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <p>&copy; 2026 Asia Parveen. All rights reserved.</p>
-                <p class="footer-tagline">Designed with data and passion</p>
-            </div>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
-</body>
-</html>
+    </
